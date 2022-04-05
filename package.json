@@ -1,0 +1,16 @@
+{
+  "name": "responsive-webpage",
+  "version": "1.0.0",
+  "description": "A simple responsive web page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Robson raphael",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "popper.js": "^1.16.1"
+  }
+}
