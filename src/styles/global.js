@@ -12,6 +12,12 @@ export const Global = createGlobalStyle `
 export const Container = styled.div`
     width: 100%;
     height: 100vh;
-
+    
+    display: flex;
     background-color: #151718;
+
+    @media (max-width: 1020px){
+        display: flex;
+        flex-direction: column;
+    }
 `

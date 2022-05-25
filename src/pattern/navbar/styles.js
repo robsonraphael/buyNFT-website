@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const Container = styled.nav`
     background-color: #141312;
 
     width: 220px;
@@ -12,7 +12,7 @@ export const Container = styled.div`
 
     padding: 20px;
 
-    @media(max-width: 768px){
+    @media(max-width: 1020px){
         position: sticky;
         width: 100%;
         height: 70px;
@@ -40,7 +40,7 @@ export const Wrapper = styled.div`
     flex-direction: column;
     justify-content: space-around;
 
-    @media(max-width: 768px){
+    @media(max-width: 1020px){
         display: none;
     }
 `
@@ -80,7 +80,7 @@ export const Division = styled.div`
     background: linear-gradient(220deg, gray, #141516);
     border-radius: 2px;
 
-    @media(max-width: 768px){
+    @media(max-width: 1020px){
         display: none;
     }
 `
@@ -120,7 +120,7 @@ export const Mobile = styled.button`
         font-size: 2.4em;
     }
 
-    @media(max-width: 768px){
+    @media(max-width: 1020px){
         display: flex;
     }
 `
